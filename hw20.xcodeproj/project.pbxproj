@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93988EB92B0627A1004C93E7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93988EB82B0627A1004C93E7 /* Product.swift */; };
 		939A0B5E2B0520C900C05F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A0B5D2B0520C900C05F79 /* AppDelegate.swift */; };
 		939A0B602B0520C900C05F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A0B5F2B0520C900C05F79 /* SceneDelegate.swift */; };
 		939A0B622B0520C900C05F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A0B612B0520C900C05F79 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93988EB82B0627A1004C93E7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		939A0B5A2B0520C900C05F79 /* hw20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939A0B5D2B0520C900C05F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939A0B5F2B0520C900C05F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				939A0B5D2B0520C900C05F79 /* AppDelegate.swift */,
 				939A0B5F2B0520C900C05F79 /* SceneDelegate.swift */,
 				939A0B612B0520C900C05F79 /* ViewController.swift */,
+				93988EB82B0627A1004C93E7 /* Product.swift */,
 				939A0B632B0520C900C05F79 /* Main.storyboard */,
 				939A0B662B0520D000C05F79 /* Assets.xcassets */,
 				939A0B682B0520D000C05F79 /* LaunchScreen.storyboard */,
@@ -95,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					939A0B592B0520C900C05F79 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				939A0B622B0520C900C05F79 /* ViewController.swift in Sources */,
+				93988EB92B0627A1004C93E7 /* Product.swift in Sources */,
 				939A0B5E2B0520C900C05F79 /* AppDelegate.swift in Sources */,
 				939A0B602B0520C900C05F79 /* SceneDelegate.swift in Sources */,
 			);
@@ -203,6 +207,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -264,6 +269,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
